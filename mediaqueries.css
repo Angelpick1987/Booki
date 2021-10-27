@@ -1,0 +1,71 @@
+@media screen and (min-width:768px) and (max-width:998px)  /*tablette*/
+{ 
+body
+{   
+ 
+    display:block;
+    flex-flow:column; 
+    flex-direction:column;  
+   
+}
+
+footer
+{
+    display:flex; 
+    flex-wrap:wrap; 
+    
+    
+}
+
+
+
+}
+
+@media screen and (max-width:998px) /*smartphones */
+{ 
+/*body
+{   
+ 
+   
+} */
+.logo 
+{
+top:5px; 
+text-align:center; 
+
+}
+
+nav 
+{display:flex;
+flex-direction:row; 
+vertical-align: top;
+
+
+} 
+span .reve 
+{display:flex; 
+flex-direction: column;}
+
+
+.register 
+{position: absolute;
+text-align: inherit;
+right: 50px; 
+}
+
+
+footer
+{
+    display:unset; 
+    justify-content: flex-start;
+    margin-left : 5px ;
+}
+
+.menu1
+{
+    display:inline; 
+flex-direction:row; 
+
+top:140px;  
+justify-content:center; }
+}
