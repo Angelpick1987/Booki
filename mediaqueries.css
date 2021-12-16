@@ -65,14 +65,9 @@ margin-right:2%;
  .fa-search
  
  {
-     visibility:visible;
-          background-color:#0065FC;
- color:white; 
- border-radius: 10px 10px 0px 0px ;
- margin-left: 75px;
- margin-bottom:10px;
+   
 
- }*/
+ }
 
 
 .organisation
@@ -86,7 +81,7 @@ margin-left: 7%;  }
 
 main
 { }
-@media screen and (max-width:968px) /*tablettes */
+@media screen and (max-width:768px) /*tablettes */
 { 
 
 *
@@ -216,22 +211,10 @@ border-bottom-style: solid;
 margin-right:20px;
 color:black;  }
 
-/*.fa-search:before
-{visibility:visible!important; 
-    display:block; 
-    background-color:#0065FC;
-color:white; 
-border-radius: 10px 10px 10px 10px ;
-width:50px;
-height: 100px; 
-margin:0px; 
-margin-bottom:3px; 
-
- 
-}*/
 
 
-@media screen and (max-width:967px)
+
+@media screen and (max-width:767px)
 {
 
 #research 
@@ -241,7 +224,10 @@ margin-bottom:3px;
 
 .recherche i
 {display:block; 
-width: 50px;
-height:50px; }
+
+ }
+
+ .recherche, .search button 
+ {width: 50px;}
 
 }

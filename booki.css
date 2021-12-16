@@ -299,15 +299,10 @@ margin-left: -50px;
     margin:0px 0px 0px 0px;  
     }
 
-/*.fa-search:before {
-	visibility: hidden;
-	}*/
-
     .recherche i
     {display:none;
     color:white; 
-    width: 50px; 
-    height:50px;  }
+     }
     
 
 .fa-star {
