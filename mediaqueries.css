@@ -1,7 +1,7 @@
 @media screen and (min-width:999px) and (max-width:1024px)
 {}
 
-@media screen and (min-width:768px) and (max-width:998px)  /*smartphones*/
+@media screen and (min-width:768px) and (max-width:998px)  /*tablettes*/
 { 
 
 *
@@ -32,7 +32,7 @@ flex-wrap:wrap;
 .research
 {display:none; }
 
-.recherche  
+.recherche  i
 {display:inline-block; }
 
 nav
@@ -62,7 +62,7 @@ margin-right:2%;
 
  
 
- /*.fa-search:before
+ .fa-search
  
  {
      visibility:visible;
@@ -86,7 +86,7 @@ margin-left: 7%;  }
 
 main
 { }
-@media screen and (max-width:998px) /*tablettes */
+@media screen and (max-width:968px) /*tablettes */
 { 
 
 *
@@ -166,6 +166,10 @@ margin-right:0%;
 
 
 
+.research
+{display:none; }
+
+
 
 
 
@@ -227,7 +231,17 @@ margin-bottom:3px;
 }*/
 
 
+@media screen and (max-width:967px)
+{
+
+#research 
+{
+    display : none;}
 
 
+.recherche i
+{display:block; 
+width: 50px;
+height:50px; }
 
 }

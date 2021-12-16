@@ -267,11 +267,11 @@ margin-left: -50px;
   
 }
 
-.fa-money-bill-wave:before, .fa-child:before, .fa-heart:before, .fa-dog:before, .fa-search
+.fa-money-bill-wave:before, .fa-child:before, .fa-heart:before, .fa-dog:before
 {
     border-radius:100px;
     color:#0065FC;
-    background-color:#DEEBFF;
+   background-color:#DEEBFF;
     font-size: 0.9rem;
     padding: 18px;   
     margin:0px 0px 0px 0px; 
@@ -304,7 +304,11 @@ margin-left: -50px;
 	}*/
 
     .recherche i
-    {display:none;}
+    {display:none;
+    color:white; 
+    width: 50px; 
+    height:50px;  }
+    
 
 .fa-star {
 	color:#0065FC;
