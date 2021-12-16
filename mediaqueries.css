@@ -1,5 +1,5 @@
 @media screen and (min-width:999px) and (max-width:1024px)
-
+{}
 
 @media screen and (min-width:768px) and (max-width:998px)  /*smartphones*/
 { 
@@ -29,7 +29,8 @@ flex-wrap:wrap;
 /*width: 100%; */
 }
 
-
+.research
+{display:none; }
 
 
 nav
@@ -60,12 +61,14 @@ margin-right:2%;
  
 
  .fa-search:before
- {display:unset; 
-     background-color:#0065FC;
+ 
+ {
+    /* visibility:visible;
+          background-color:#0065FC;
  color:white; 
  border-radius: 10px 10px 0px 0px ;
  margin-left: 75px;
- margin-bottom:10px;
+ margin-bottom:10px;*/
 
  }
 
@@ -94,8 +97,8 @@ main
  
  }
 
- .search button
-{display:unset; }
+ .research
+{display:none; }
 
 .logo 
 {
@@ -158,8 +161,7 @@ margin-right:0%;
 }
 
 
-.submit
-{display:none; }
+
 
 
 
@@ -206,8 +208,9 @@ border-bottom-style: solid;
 margin-right:20px;
 color:black;  }
 
-.fa-search:before
+/*.fa-search:before
 {visibility:visible!important; 
+    display:block; 
     background-color:#0065FC;
 color:white; 
 border-radius: 10px 10px 10px 10px ;
@@ -217,7 +220,7 @@ margin:0px;
 margin-bottom:3px; 
 
  
-}
+}*/
 
 
 

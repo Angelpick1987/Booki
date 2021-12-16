@@ -174,7 +174,7 @@ border:solid thin grey ;
  
  
  .search button {
-    float: right;
+   
     border-radius: 0px 20px 20px 0px;
     width: 150px;
     padding: 10px;
@@ -187,20 +187,18 @@ border:solid thin grey ;
   
   }
 
-  span #research
-  {  float: right;
+ #research 
+  {  
     border-radius: 0px 20px 20px 0px;
     width: 150px;
     padding: 10px;
     height: 50px;
-    background: #0065FC;
+ 
     font-size: 18px;
     color: white;
      cursor: pointer;}
   
-  .search button:hover {
-    background: grey;
-  }
+
   
   .search a:hover {
     background-color: #ddd;
@@ -212,6 +210,12 @@ border:solid thin grey ;
     color: white;
   }
   
+.recherche
+  {position:absolute;
+;  }
+
+  form 
+{position:relative; }
   
 h3{   
 	color:black;
@@ -343,6 +347,8 @@ margin-left: -50px;
     text-align:center;
  
 }
+
+
 
 
 /* CONTENER */
