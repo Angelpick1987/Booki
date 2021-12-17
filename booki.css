@@ -8,7 +8,7 @@
 body {
     color:#0065FC;
     font-family: Raleway;
-	width: auto;
+	width: 100%;
 }
 
 *
@@ -21,6 +21,7 @@ main {
 	
     margin-right: 7%;
     margin-left:7%; 
+    width:100%; 
 	  }
 	
 	/*HEADER*/ 
@@ -34,11 +35,16 @@ header {
 
 }
 
-.principal
+.principal 
 {display:flex; 
 flex-wrap:wrap; 
 flex-direction:column; }
 
+
+.location
+{display:flex; 
+flex-wrap:wrap; 
+flex-direction:column; }
 
  h2
  {font-size:50px; 
@@ -291,7 +297,7 @@ font-weight:bold ;
     border-color: grey; 
     font-size: small;
     padding: 5px;   
-    margin:0px 0px 0px 0px;  
+
     }
 
     .recherche i
@@ -330,7 +336,6 @@ font-weight:bold ;
     height: 25px;
     border: 1px #F2F2F2 solid;
     border-radius: 50%;
-	margin-right: 10px; 
 	color:black; 
 	}
 
@@ -378,13 +383,13 @@ h4 {
 	 
 }
 
-#rentals {
+/*#rentals {
     display:flex;
     flex-wrap:wrap;
     margin-right:7%;
 	margin-left:7%; 
     padding: 0px;
-    justify-content: center;}
+    justify-content: center;}*/
   
 
 .hebergements {
@@ -408,9 +413,9 @@ h4 {
     border-radius:20px ;
     padding: 20px; 
     justify-content:center; 
-    margin-left: 7%;  
+   /* margin-left: 7%;  
     margin-top:30px; 
-    margin-bottom: 30px;  
+    margin-bottom: 30px;  */
 }
 
 .populaires {
@@ -449,10 +454,10 @@ h4 {
     display:block;
     justify-content: center; 
     float:right; 
-    margin: 15px;
-	padding: 20px; 
+    	padding: 20px; 
+        /*margin: 15px;
 	margin-top: 30px; 
-	margin-bottom: 30px;       
+	margin-bottom: 30px;     */  
 }
 
 .ticontener3  {
@@ -680,6 +685,7 @@ footer {
 
 h5 {
 	color:black; 
+    font-style: normal;
 
    
 	}
