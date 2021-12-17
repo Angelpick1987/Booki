@@ -9,6 +9,7 @@ body {
     color:#0065FC;
     font-family: Raleway;
 	width: 100%;
+    margin : 0;
 }
 
 *
@@ -18,9 +19,8 @@ body {
 
 main {
 	
-	
-    margin-right: 7%;
-    margin-left:7%; 
+	display:flex; 
+    flex-direction: column; 
     width:100%; 
 	  }
 	
@@ -43,8 +43,7 @@ flex-direction:column; }
 
 .location
 {display:flex; 
-flex-wrap:wrap; 
-flex-direction:column; }
+justify-content: space-between; }
 
  h2
  {font-size:50px; 
@@ -383,13 +382,6 @@ h4 {
 	 
 }
 
-/*#rentals {
-    display:flex;
-    flex-wrap:wrap;
-    margin-right:7%;
-	margin-left:7%; 
-    padding: 0px;
-    justify-content: center;}*/
   
 
 .hebergements {
@@ -413,9 +405,8 @@ h4 {
     border-radius:20px ;
     padding: 20px; 
     justify-content:center; 
-   /* margin-left: 7%;  
-    margin-top:30px; 
-    margin-bottom: 30px;  */
+    width:65%; 
+ 
 }
 
 .populaires {
@@ -455,9 +446,7 @@ h4 {
     justify-content: center; 
     float:right; 
     	padding: 20px; 
-        /*margin: 15px;
-	margin-top: 30px; 
-	margin-bottom: 30px;     */  
+      width: 30%;  
 }
 
 .ticontener3  {
