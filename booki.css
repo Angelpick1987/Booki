@@ -240,8 +240,17 @@ h3{
   /* RECHERCHE */ 
 
   #remplissage
-  {margin-left:0%; 
+  {display:flex;
+    flex-direction:row;
+flex-wrap: wrap; 
+   align-items:baseline;
+   
+      
+    
+    /*margin-left:0%; 
     margin:0; 
+    display:flex; 
+    flex-wrap:wrap; */
 
  }
   
@@ -253,8 +262,9 @@ h3{
  }
 
  .filtres
- {font-size:30px;
+ {font-size:15px;
 margin: 20px; 
+font-weight:bold ;
 margin-left: -50px;  
 }
   
@@ -263,7 +273,9 @@ margin-left: -50px;
     border:none; 
    margin:10px;
    padding:9px; 
+   font-size:15px; 
    background-color: white;
+   font-weight: bold;
   
 }
 
