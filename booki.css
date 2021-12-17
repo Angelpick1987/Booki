@@ -38,7 +38,7 @@ header {
 }
 
 
-#marge
+/*#marge
 {margin-right:7%;
 margin-left: 11%;
 display:flex; 
@@ -46,7 +46,7 @@ flex-wrap:wrap;
 flex-direction:column; 
 text-align:left; 
 
- }
+ }*/
 
 
  h2
@@ -242,15 +242,7 @@ h3{
   #remplissage
   {display:flex;
     flex-direction:row;
-flex-wrap: wrap; 
    align-items:baseline;
-   
-      
-    
-    /*margin-left:0%; 
-    margin:0; 
-    display:flex; 
-    flex-wrap:wrap; */
 
  }
   
@@ -265,7 +257,7 @@ flex-wrap: wrap;
  {font-size:15px;
 margin: 20px; 
 font-weight:bold ;
-margin-left: -50px;  
+  
 }
   
   .filter
@@ -697,6 +689,7 @@ footer {
 
 h5 {
 	color:black; 
+
    
 	}
 
