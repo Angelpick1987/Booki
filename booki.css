@@ -8,7 +8,6 @@
 body {
     color:#0065FC;
     font-family: Raleway;
-	box-sizing: border-box;
 	width: auto;
 }
 
@@ -35,12 +34,15 @@ header {
 
 }
 
-
+.principal
+{display:flex; 
+flex-wrap:wrap; 
+flex-direction:column; }
 
 
  h2
  {font-size:50px; 
-margin-left:7%; }
+}
 
 h6
 {margin-left: 7%;
