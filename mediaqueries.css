@@ -44,7 +44,7 @@ display:flex;  }
     border-top: none; 
     width:50%; 
 }
-        }
+        
 
     
 
@@ -75,12 +75,7 @@ display:flex;  }
     
      
     
-     .fa-search
      
-     {
-       
-    
-     }
     
     
     .organisation
@@ -88,8 +83,7 @@ display:flex;  }
     flex-wrap:wrap; 
     flex-direction:row;
     margin-left: 7%;  }
-    }
-    */
+
     
     
     main
@@ -102,7 +96,7 @@ display:flex;  }
     {display:flex; 
     }
 
-
+}
 @media screen and (max-width:767px) /*tablettes */
 { 
 
