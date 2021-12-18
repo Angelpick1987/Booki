@@ -110,6 +110,7 @@ p {
 nav {
 	display:flex; 
 	flex-direction: row;
+    
 
 }
 
@@ -119,6 +120,11 @@ nav a
     justify-content : center; 
     align-items : center;
     border-top: 2px solid white; 
+
+}
+
+nav:hover 
+{ border-top:#0065FC; 
 }
 
 nav, .logo {

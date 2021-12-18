@@ -4,7 +4,7 @@
 { 
 
     *
-    {/width:auto; 
+    {width:auto; 
     margin-left:0;
     overflow:hidden; 
 display:flex;  }
@@ -35,10 +35,15 @@ display:flex;  }
     .recherche  i
     {display:inline-block; }
     
-    nav
-    {margin-right:50px; }
-    
-    }
+    nav a
+    {border-bottom:grey;
+    border-top: none; 
+}
+        }
+
+
+    nav:hover
+    {border-bottom:#0065FC; }
     
     .topnav 
     {
