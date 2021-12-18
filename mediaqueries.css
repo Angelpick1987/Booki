@@ -3,12 +3,7 @@
 @media screen and (min-width:768px) and (max-width:998px)  /*tablettes*/
 { 
 
-    *
-    {width:auto; 
-    margin-left:0;
-    overflow:hidden; 
-display:flex;  }
-     
+
     body
     {   
      
@@ -94,8 +89,15 @@ display:flex;  }
 
     .principal
     {display:flex; 
+
     }
 
+    .location {flex-direction : column-reverse;}
+
+    #hotel {width :100%;}
+
+    .ticontener2
+{width: 100%;}
 }
 @media screen and (max-width:767px) /*mobiles */
 { 
@@ -124,7 +126,7 @@ text-align:center;
 
 
 
-
+.location {flex-direction : column-reverse;}
 
 
 
@@ -155,6 +157,9 @@ flex-direction:row; }
 
 .ticontener3
 {margin:0px;}
+
+.ticontener2
+{width: 100%;}
 
 .maxi
 {padding:0px; 
@@ -229,6 +234,7 @@ width:50%;
  {width: 50px;}
 
 
+ #hotel {width :100%;}
 
 
 
