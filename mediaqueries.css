@@ -130,7 +130,7 @@ text-align:center;
 
 
  nav a
-    {border-bottom:grey;
+    {border-bottom:2px,solid grey;
     border-top: none; 
     width:50%; 
 
@@ -138,7 +138,8 @@ text-align:center;
 
 
     nav:hover
-    {border-bottom:#0065FC; }
+    {border-bottom:2px solid #0065FC; 
+    border-top:none; }
 
 } 
 
@@ -211,7 +212,7 @@ flex-direction:column;
 }
 
 header
-{flex-direction:row; }
+{flex-direction:column; }
 
 }
 
