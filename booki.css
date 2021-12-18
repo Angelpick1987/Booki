@@ -22,8 +22,7 @@ main {
 	display:flex; 
     flex-direction: column; 
     width:100%; 
-    margin: 30px; 
-	  }
+    	  }
 	
 	/*HEADER*/ 
 
@@ -38,6 +37,7 @@ header {
 
 .principal 
 {display:flex; 
+    padding:20px; 
 flex-wrap:wrap; 
 flex-direction:column;
  }
@@ -46,7 +46,8 @@ flex-direction:column;
 .location
 {display:flex; 
     flex-wrap: wrap;
-justify-content: space-between; }
+justify-content: space-between; 
+padding:20px; }
 
  h2
  {font-size:20px; 
@@ -385,7 +386,7 @@ h4 {
     padding: 15px; 
     justify-content:center; 
     width:65%; 
-margin-left:50px; 
+
 
 
  
