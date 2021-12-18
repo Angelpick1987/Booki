@@ -122,12 +122,16 @@ text-align:center;
 }
 
 
-nav 
-{display:flex;
-flex-direction:row; 
-vertical-align: top;
-justify-content:space-between; 
-margin:10px; 
+ nav a
+    {border-bottom:grey;
+    border-top: none; 
+    width:50%; 
+
+        }
+
+
+    nav:hover
+    {border-bottom:#0065FC; }
 
 } 
 
