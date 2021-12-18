@@ -123,17 +123,9 @@ text-align:center;
 }
 
 
- nav a
-    {border-bottom:2px,solid grey;
-    border-top: none; 
-    width:50%; 
-
-        }
 
 
-    nav:hover
-    {border-bottom:2px solid #0065FC; 
-    border-top:none; }
+
 
 
 
@@ -219,6 +211,10 @@ border-top: none;
 width:50%; 
 
     }
+
+    nav:hover
+    {border-bottom:2px solid #0065FC; 
+    border-top:none; }
 #research 
 {
     display : none;}
