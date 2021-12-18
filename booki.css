@@ -122,7 +122,11 @@ nav, .logo {
 }
 
 
-
+.search {
+    display: flex;
+    flex-direction: row;
+   
+  }
 
   
  input[type=text]  {
