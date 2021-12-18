@@ -82,7 +82,7 @@ a:visited {
 	
 }
 
-a:hover {
+nav a:hover {
     color:#0065FC;
     opacity:0.5; 
    border-top: solid 2px #0065FC;
@@ -115,9 +115,7 @@ nav a
 
 }
 
-nav:hover 
-{ border-top:#0065FC; 
-}
+
 
 nav, .logo {
     float:none;
