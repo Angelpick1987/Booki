@@ -1,12 +1,13 @@
 /*BOOKI */
 
 @font-face {
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway'; 
 }
 
 body {
-    color:#0065FC;
+    color:black;
     font-family: Raleway;
+    font-weight: bolder;
 	width: 100%;
     margin : 0;
 }
@@ -72,7 +73,7 @@ color:black;  }
 
 a {
     text-decoration: none;
-    color:#0065FC;
+    color:black;
     font-weight:bold;
 	
 }
@@ -134,6 +135,7 @@ nav, .logo {
 	width: 150px;
     padding: 6px;
     font-size: 13px;
+    font-weight:bolder; 
       
   }
   
@@ -183,7 +185,7 @@ nav, .logo {
   
 .recherche
   {position:absolute;
-;  }
+  }
 
   form 
 {position:relative; }
@@ -627,7 +629,12 @@ h4 {
 	margin-right:7%;
 	padding: 10px 80px 10px; 
 
+
+
  }
+ .activities 
+ {    display: flex;
+    flex-direction: row;}
 
 /* pied de page*/ 
 
@@ -667,7 +674,10 @@ h5 {
 
 .about a, .rent a, .help a { 
 color:black; 
+list-style-type: none;
 }
+
+
 
 
 ul
@@ -678,6 +688,7 @@ ul
 	}
 
     li
-    {  font-size: 15px; }
+    {  font-size: 15px; 
+    list-style-type: none;}
 
    

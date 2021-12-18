@@ -2,8 +2,6 @@
 {}
 @media screen and (min-width:768px) and (max-width:998px)  /*tablettes*/
 { 
-
-
     body
     {   
      
@@ -15,38 +13,32 @@
     }
     
     header
-{flex-direction:column; 
-
-}
-    #marge
     {
-        margin-left: auto; 
-        margin-right: auto; 
-    display:flex; 
-    flex-wrap:wrap; 
-    
-   
-    }
+        flex-direction:column; }
+
     
     .research
-    {display:none; }
-    
-    .recherche  i
-    {display:inline-block; }
-    
-    nav a
-    {border-bottom:grey;
-    border-top: none; 
-    width:50%; 
-}
+    {
+        display:none; 
+    }
         
-
-    
-
+    .recherche  i
+    {
+        display:inline-block; 
+    }
+        
+    nav a
+    {
+        border-bottom:grey;
+        border-top: none; 
+        width:50%; 
+    }   
 
     nav:hover
-    {border-bottom:#0065FC;
-    border-top:none;  }
+    {
+        border-bottom:#0065FC;
+    border-top:none;  
+    }
     
     .topnav 
     {
@@ -57,51 +49,57 @@
     margin-top:60px; 
     width:358px;  
      } 
-    
+
      h2
      {
     color:black; 
     font-size:20px; 
-    width : 70%;
-    
+    width : 70%;    
     margin-left:5%; 
     margin-right:2%; 
      }
-    
-     
-    
-     
-    
-    
-    .organisation
-    {display: flex; 
-    flex-wrap:wrap; 
-    flex-direction:row;
-    margin-left: 7%;  }
 
-    
-    
-    main
-    { display:flex; 
-        flex-wrap: wrap; 
+     .organisation
+     {
+         display: flex; 
+     flex-wrap:wrap; 
+     flex-direction:row;
+     margin-left: 7%;  
+     }
+ 
+         
+     main
+     { 
+         display:flex; 
+         flex-wrap: wrap; 
+     }
+ 
+ 
+     .principal
+     {
+         display:flex; 
+ 
+     }
+ 
+     .location 
+     {
+         flex-direction : column-reverse;
+        }
+ 
+     #hotels 
+     {
+         width :100%;
+         margin-top:20px;}
+ 
+     .ticontener2
+ {width: 100%;}
+ 
+ .populaires { 
+     width :70% ; 
+     margin :10px auto;
     }
+ 
 
-
-    .principal
-    {display:flex; 
-
-    }
-
-    .location {flex-direction : column-reverse;}
-
-    #hotels {width :100%;
-        margin-top:20px;}
-
-    .ticontener2
-{width: 100%;}
-
-.populaires { width :70% ; 
-    margin :10px auto;}
 
 }
 @media screen and (max-width:767px) /*mobiles */
@@ -129,7 +127,12 @@ text-align:center;
 
 }
 
-
+.activities 
+{display: flex;
+flex-direction: column;
+margin-bottom: 30px;
+width: auto;
+align-self: center;}
 
 .location {flex-direction : column-reverse;}
 
@@ -174,17 +177,6 @@ margin-left:0%;
 margin-right:0%; 
 }
 
-
-
-
-.research
-{display:none; }
-
-
-
-
-
-
 span .reve 
 {display:flex; 
 flex-direction: column;}
@@ -203,8 +195,9 @@ footer
 flex-direction:column; 	
     justify-content: flex-start;
     margin-left :0px;
-    margin:0px; 
+    margin:auto; 
     background-color: #F2F2F2;
+  
 }
 
 header
@@ -244,17 +237,14 @@ width:50%;
      width :100%;
      margin-top:20px; }
 
-
-
-
-         #remplissage
+ #remplissage
          {display:flex;
            flex-direction:column;
-              align-items:baseline;
-         
-       
+            align-items:baseline;
+                
         }
 .organisation
+
 {flex-wrap: wrap; }
  nav
  {margin:0; }
