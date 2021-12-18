@@ -103,7 +103,7 @@ display:flex;  }
     }
 
 
-@media screen and (max-width:768px) /*tablettes */
+@media screen and (max-width:767px) /*tablettes */
 { 
 
 *
@@ -211,12 +211,12 @@ flex-direction:column;
 }
 
 header
-{flex-direction:column; }
+{flex-direction:row; }
+
+}
 
 
 
-@media screen and (max-width:767px)
-{
 
     nav a
 {border-bottom:2px solid grey;
