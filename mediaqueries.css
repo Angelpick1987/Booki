@@ -97,7 +97,7 @@ display:flex;  }
     }
 
 }
-@media screen and (max-width:767px) /*tablettes */
+@media screen and (max-width:767px) /*mobiles */
 { 
 
 *
@@ -135,7 +135,7 @@ text-align:center;
     {border-bottom:2px solid #0065FC; 
     border-top:none; }
 
-} 
+
 
 .bouton, .info:before {   
     background:white;
@@ -208,7 +208,7 @@ flex-direction:column;
 header
 {flex-direction:column; }
 
-}
+
 
 
 
