@@ -1,86 +1,95 @@
 @media screen and (min-width:999px) and (max-width:1024px)
 {}
-
 @media screen and (min-width:768px) and (max-width:998px)  /*tablettes*/
 { 
 
-*
-{/*width:auto; */
-margin-left:0;
-overflow:hidden;  }
- 
-body
-{   
- 
-    display:block;
-    flex-flow:column; 
-    flex-direction:column;  
-margin:0px;  
-
-}
-
-#marge
-{
-    margin-left: auto; 
-    margin-right: auto; 
-display:flex; 
-flex-wrap:wrap; 
-
-/*width: 100%; */
-}
-
-.research
-{display:none; }
-
-.recherche  i
-{display:inline-block; }
-
-nav
-{margin-right:50px; }
-
-}
-
-.topnav 
-{
-margin-left: 10%;  
-border:unset;
-margin: 20px; 
-margin-bottom:60px; 
-margin-top:60px; 
-width:358px;  
- } 
-
- h2
- {
-color:black; 
-font-size:20px; 
-width : 70%;
-
-margin-left:5%; 
-margin-right:2%; 
- }
-
- 
-
- .fa-search
- 
- {
+    *
+    {/width:auto; 
+    margin-left:0;
+    overflow:hidden; 
+display:flex;  }
+     
+    body
+    {   
+     
+        display:block;
+        flex-flow:column; 
+        flex-direction:column;  
+    margin:0px;  
+    
+    }
+    
+    #marge
+    {
+        margin-left: auto; 
+        margin-right: auto; 
+    display:flex; 
+    flex-wrap:wrap; 
+    
    
+    }
+    
+    .research
+    {display:none; }
+    
+    .recherche  i
+    {display:inline-block; }
+    
+    nav
+    {margin-right:50px; }
+    
+    }
+    
+    .topnav 
+    {
+    margin-left: 10%;  
+    border:unset;
+    margin: 20px; 
+    margin-bottom:60px; 
+    margin-top:60px; 
+    width:358px;  
+     } 
+    
+     h2
+     {
+    color:black; 
+    font-size:20px; 
+    width : 70%;
+    
+    margin-left:5%; 
+    margin-right:2%; 
+     }
+    
+     
+    
+     .fa-search
+     
+     {
+       
+    
+     }
+    
+    
+    .organisation
+    {display: flex; 
+    flex-wrap:wrap; 
+    flex-direction:row;
+    margin-left: 7%;  }
+    }
+    */
+    
+    
+    main
+    { display:flex; 
+        flex-wrap: wrap; 
+    }
 
- }
+
+    .principal
+    {display:flex; 
+    }
 
 
-.organisation
-{display: flex; 
-flex-wrap:wrap; 
-flex-direction:row;
-margin-left: 7%;  }
-}
-
-
-
-main
-{ }
 @media screen and (max-width:768px) /*tablettes */
 { 
 
@@ -223,10 +232,12 @@ color:black;  }
  {width: 50px;}
 
  .menu1
- {width:50%;}
+ {width:50%;
+display:flex; }
 
  .menu2
- {width:50%; }
+ {width:50%; 
+display:flex; }
 
 
 .menu1:hover  {
