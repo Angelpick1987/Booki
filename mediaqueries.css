@@ -94,10 +94,14 @@
 
     .location {flex-direction : column-reverse;}
 
-    #hotel {width :100%;}
+    #hotels {width :100%;}
 
     .ticontener2
 {width: 100%;}
+
+.populaires{ width :70% ; 
+    margin :auto;}
+
 }
 @media screen and (max-width:767px) /*mobiles */
 { 
@@ -234,7 +238,7 @@ width:50%;
  {width: 50px;}
 
 
- #hotel {width :100%;}
+ #hotels {width :100%;}
 
 
 
