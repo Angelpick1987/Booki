@@ -38,6 +38,7 @@ display:flex;  }
     nav a
     {border-bottom:grey;
     border-top: none; 
+    width:50%; 
 }
         }
 
