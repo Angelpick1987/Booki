@@ -1,5 +1,6 @@
-@media screen and (min-width:999px) and (max-width:1024px)
-{}
+
+
+
 @media screen and (min-width:768px) and (max-width:998px)  /*tablettes*/
 { 
     body
@@ -19,8 +20,11 @@
     
     .research
     {
-        display:none; 
+        visibility: hidden; 
     }
+
+    .fa-search:before
+    {display:none; }
         
     .recherche  i
     {
@@ -85,7 +89,7 @@
      {
          flex-direction : column-reverse;
         }
- 
+
      #hotels 
      {
          width :100%;
@@ -207,7 +211,16 @@ header
 .hebergements 
 {width: 100%;}
 
+.populaires
+{width:344px; 
+height: 170px; }
 
+.col1, .col2, .col3, .col4, .col5
+{width:344px; 
+    height: 170px;}
+
+.caption2
+{padding-top:55px; }
 
     nav a
 {border-bottom:2px solid grey;
