@@ -335,12 +335,14 @@ font-weight:bold ;
 /* CONTENER */
 
 h4 {
-	margin-right:10px;
-    margin-left:10px; 
-    margin-top: -10px!important; 
-	color:black;  
-	text-align:left; 
-    height:0; 
+   color:black;
+    font-weight:1000;
+    font-size: 23px;
+	margin-left:7%; 
+    margin:50px; 
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
 	}
 
 .imgs {
@@ -452,7 +454,8 @@ h4 {
     display:flex;
     flex-wrap:wrap; 
     border-radius: 20px;
-   justify-content:center;  
+   justify-content:center; 
+   flex-direction: column; 
 
     }   
 
@@ -521,6 +524,7 @@ h4 {
 .occupation
 {display:flex; 
 flex-wrap:wrap;
+flex-direction:row; 
 justify-content: center;}
 
 
@@ -656,9 +660,9 @@ justify-content: center;}
 
  }
  .activities 
- {    display: flex;
-    flex-direction: row;
-margin-top:20px; }
+ {display:flex; 
+    flex-wrap:wrap;
+    justify-content: center;}
 
 /* pied de page*/ 
 

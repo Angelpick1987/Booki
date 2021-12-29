@@ -1,7 +1,7 @@
 
 
 
-@media screen and (min-width:768px) and (max-width:998px)  /*tablettes*/
+@media screen and (min-width:768px) and (max-width:1024px)  /*tablettes*/
 { 
     body
     {   
@@ -103,7 +103,16 @@
      margin :10px auto;
     }
  
+   
 
+
+.occupation
+{display:flex; 
+    flex-wrap:wrap; 
+flex-direction: column; 
+
+
+ }
 
 }
 @media screen and (max-width:767px) /*mobiles */
@@ -264,12 +273,6 @@ width:50%;
 
 }
 
-@media screen (min-width:320px) and (max-width:375px) /*mobiles */
-
-{
-    .col1
-    {width:unset; }
-
-    .populaires
-    {width:auto; }
+.occupation
+{display:flex, }
 }
