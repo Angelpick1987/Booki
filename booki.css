@@ -171,7 +171,8 @@ nav, .logo {
     color: white;
      cursor: pointer;}
   
-
+#research:hover
+{opacity: 0.5; }
   
   .search a:hover {
     background-color: #ddd;
@@ -264,6 +265,8 @@ font-weight:bold ;
 	}
 
 
+.fa:hover 
+{ opacity:0.5; }
 
 .fa-info:before {
 	border-radius:100px;
@@ -332,9 +335,12 @@ font-weight:bold ;
 /* CONTENER */
 
 h4 {
-	margin:10px;
+	margin-right:10px;
+    margin-left:10px; 
+    margin-top: -10px!important; 
 	color:black;  
 	text-align:left; 
+    height:0; 
 	}
 
 .imgs {
@@ -382,7 +388,7 @@ h4 {
 }
 
 .hebergements:hover {
-	transform:scale(1)
+	opacity:0.5; 
 	}
 
 #hotels{
@@ -392,10 +398,8 @@ h4 {
     justify-content:center; 
     width:65%; 
 
-
-
- 
 }
+
 
 .populaires
 {
@@ -410,6 +414,9 @@ h4 {
     margin-bottom: 20px; 
 
 } 
+
+.populaires:hover
+{opacity:0.5}
 
 .colonne{
 	margin:0px; 
@@ -507,8 +514,9 @@ h4 {
 	 top:0px; 
      object-fit: cover;  
  
-    
-}
+   }
+   .gdeimg:hover, .moyimg:hover, .pteimg:hover
+   {opacity:0.5; }
 
 .occupation
 {display:flex; 
@@ -649,7 +657,8 @@ justify-content: center;}
  }
  .activities 
  {    display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+margin-top:20px; }
 
 /* pied de page*/ 
 
